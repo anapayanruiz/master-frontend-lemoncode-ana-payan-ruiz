@@ -1,0 +1,54 @@
+// color
+$colorWhite: #ffffff;
+$colorGrey: #4a4a4a;
+$colorIceBlue: #eff9ff;
+$colorBlue: #8ccbea;
+$colorCeruleanBlue: #0271bc;
+$colorDarkBlue: #304268;
+$colorBrightOrange: #f26002;
+
+//Typography
+$fontfamilyTitle: "Roboto Slab", "serif";
+$fontfamilyText: "Roboto", "sans-serif";
+$fontweightTitle: 600;
+$fontweightText: 500;
+
+$fontsizeTitle: 24px;
+$fontsizeText: 18px;
+$fontsizeFooter: 16px;
+
+$lineHeight: 30px;
+
+$textCenter: center;
+
+$transformTitle: uppercase;
+$transformsmallTitle: capitalize;
+
+@mixin CenterColumn {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+@mixin mainTitle {
+  font-family: $fontfamilyTitle;
+  font-weight: $fontweightTitle;
+  text-transform: $transformTitle;
+  color: $colorCeruleanBlue;
+  text-align: $textCenter;
+}
+
+.header {
+  @include CenterColumn;
+
+  &-title { 
+    @include mainTitle;
+  }
+} 
+
+img {
+  display: block;
+  width: 200px;
+}
