@@ -1,0 +1,84 @@
+html, body{
+    @apply w-full h-full m-0 p-0 overflow-x-hidden;
+}
+
+#app {
+    font-family: DefaultFont, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    @apply w-full h-full box-border;
+}
+
+:root{
+    --color-1: #362D2E;
+    --color-2: #FFFFFF;
+    --color-3: #FF8C00;
+    --color-4: #000000;
+    --color-5: #999595;
+    --color-6: #F5F4F2;
+    --color-7: #829048;
+    --color-8: #C8C9C7;
+    --color-9: #FF2C00;
+}
+
+::-webkit-scrollbar{
+    width: 8px;
+    height: 8px;
+    background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: var(--color-5);
+    border-radius: 4px;
+}
+
+@font-face {
+    font-family: "DefaultFont";
+    font-weight: 400;
+    font-style: normal;
+    font-display: auto;
+    unicode-range: U+000-5FF;
+    src: url("/fonts/semplicitapro/SemplicitaPro.otf");
+}
+
+@font-face {
+    font-family: "DefaultFont2";
+    font-weight: 400;
+    font-style: normal;
+    font-display: auto;
+    unicode-range: U+000-5FF;
+    src: url("/fonts/notosans/NotoSans-Regular.ttf");
+}
+
+@font-face {
+    font-family: "DefaultFont3";
+    font-weight: 400;
+    font-style: normal;
+    font-display: auto;
+    unicode-range: U+000-5FF;
+    src: url("/fonts/semplicitapro/SemplicitaPro-Medium.otf");
+}
+
+@font-face {
+    font-family: "DefaultFont4";
+    font-weight: 400;
+    font-style: normal;
+    font-display: auto;
+    unicode-range: U+000-5FF;
+    src: url("/fonts/semplicitapro/SemplicitaPro-Bold.otf");
+}
+
+@font-face {
+    font-family: "DefaultFont5";
+    font-weight: 400;
+    font-style: normal;
+    font-display: auto;
+    unicode-range: U+000-5FF;
+    src: url("/fonts/notosans/NotoSans-Bold.ttf");
+}
+
+@media (min-width: 768px) {
+}
+
+@media (min-width: 1280px) {
+}
