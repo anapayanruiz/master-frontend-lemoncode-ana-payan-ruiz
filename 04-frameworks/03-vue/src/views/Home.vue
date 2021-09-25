@@ -1,12 +1,14 @@
 <template>
-  <div>
-    HOME
+  <div class="bg-color-5 h-full pt-16">
+    <MembersList />
   </div>
 </template>
 
 <script lang="ts">
-import { defineComponent } from 'vue';
+import MembersList from "@/components/members-list.vue";
+import { defineComponent } from "vue";
 export default defineComponent({
-  name: 'Home',
-})
+  components: { MembersList },
+  name: "Home"
+});
 </script>

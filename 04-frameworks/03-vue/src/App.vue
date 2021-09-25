@@ -1,9 +1,7 @@
 <template>
-  <div>
+  <div class="h-full">
     <TopBar />
-    <div id="app-content">
-      <router-view />
-    </div>
+    <router-view />
   </div>
 </template>
 
